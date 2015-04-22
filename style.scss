@@ -286,4 +286,15 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
+
+/*
+ * Misc
+ */
+.feed-icon {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background-image: url('data:image/gif;base64,R0lGODlhCQAJAMQAAP/////+/f/+/v/48v748f338v7y6f/y5v3p2P/mzfrhzf7atvzXtfzSrP7NnvzDjfXBlv++ffe2ff2wZvWmYf+ZM/yWM+OWZumUU/eRM/KMM+yGM+WAM995M////wAAACH5BAEHAB4ALAAAAAAJAAkAAAVBoHd13KZlkygUipRZ1tRhEEIsVZVxgdE4g0VGs6EwBgkHQWJ6HCKDBkLByRwAB4YBUuhMnA9KACO4eCbDDadjDgEAOw==');
+}
+
 @import "svg-icons";
