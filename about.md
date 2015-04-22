@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-My name is Seth Markle.  I'm a father and professional software engineer.
+My name is Seth Markle and this is my personal blog.  All opinions are my own.
