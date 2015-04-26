@@ -90,8 +90,6 @@ I wrote a quick ruby program to convert that to hex:
 ```ruby
 #!/usr/bin/ruby
 
-# This code is in the public domain
-
 hex_lines = []
 
 $stdin.readlines.each{ |line|
