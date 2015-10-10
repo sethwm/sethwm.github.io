@@ -4,7 +4,7 @@ title: Hacking the Roomba Part 3, Java Interop
 permalink: /hacking-roomba-3/
 ---
 
-In my [last post]({{site.baseuri}}//hacking-roomba-2), I affirmed that I could talk to my [rootooth](https://www.sparkfun.com/products/12581) directly through the serial device.  The next step in getting things up and running with clojure is a java shim.  There's a great library out there called [roombacomm](http://hackingroomba.com/code/roombacomm/), but it uses [rxtx](http://rxtx.qbang.org/) for serial communication which proved problematic for me.  This post will talk about getting our basic beep program working in Java.
+In my [last post]({{site.baseurl}}//hacking-roomba-2), I affirmed that I could talk to my [rootooth](https://www.sparkfun.com/products/12581) directly through the serial device.  The next step in getting things up and running with clojure is a java shim.  There's a great library out there called [roombacomm](http://hackingroomba.com/code/roombacomm/), but it uses [rxtx](http://rxtx.qbang.org/) for serial communication which proved problematic for me.  This post will talk about getting our basic beep program working in Java.
 
 ## Serial Communication in Java
 
@@ -34,7 +34,7 @@ total 256
 -rwxr-xr-x  1 seth  Users  69156 Apr 25 18:27 librxtxSerial.jnilib
 ```
 
-I converted the beep program from [my last post]({{site.baseuri}}//hacking-roomba-2) into a Java program.  Call it my hello world:
+I converted the beep program from [my last post]({{site.baseurl}}//hacking-roomba-2) into a Java program.  Call it my hello world:
 
 ```java
 /*
